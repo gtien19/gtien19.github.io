@@ -1,0 +1,348 @@
+p{
+  font-family: 'Playfair Display', serif;
+  color: white;
+}
+
+#storefront{
+    float:left;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px 15px 50px 100px;
+}
+
+#inside{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px 15px 50px 15px;
+
+}
+
+#staircase{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px 15px 50px 15px;
+}
+
+#arch{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 50px 100px 50px 15px;
+}
+
+#reads{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 1px 15px 50px 100px;
+}
+
+#window{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 1px 15px 50px 15px;
+}
+
+#table{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 1px 15px 50px 15px;
+}
+
+#street{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin: 1px 100px 50px 15px;
+}
+body{
+    background-color: #4b6f80;
+
+}
+
+.maps{
+    width: 40%;
+    margin: auto;
+}
+
+.essay{
+    text-align: center;
+}
+
+p{
+    text-indent: 50px;
+}
+
+h3{
+  font-size:40px;
+  text-align:center;
+  font-family:'Sacramento', cursive;
+  color: white;
+}
+
+h2{
+    font-size:50px;
+    text-align: center;
+    font-family:'Sacramento', cursive;
+    color: white;
+}
+
+container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  display: block;
+  width: 30%;
+  height: auto;
+  margin: 50px 50px 20px -300px;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 16%;
+  height: 0;
+  margin: 50px 50px 50px 50px;
+  transition: .5s ease;
+}
+
+.container:hover .overlay {
+  margin: 50px 50px 520px 97px;
+  height: 15%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+holder {
+  position: relative;
+  width: 50%;
+}
+
+.pic{
+  display: block;
+  width: 30%;
+  height: 30%;
+  margin: 5px 700px 5px 630px;
+}
+
+.overlay1 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 26%;
+  height: 0;
+  margin: 800px 800px 800px 200px;
+  transition: .5s ease;
+}
+
+.holder:hover .overlay1 {
+  margin: 400px 500px -20px 630px;
+  height: 20%;
+}
+
+.words {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute; 
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+cup {
+  position: relative;
+  width: 50%;
+}
+
+.photo{
+  display: block;
+  width: 30%;
+  height: 48%;
+  margin: -900px 500px 10px 1250px;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 25%;
+  height: 0;
+  margin: 50px 50px 10px 200px;
+  transition: .5s ease;
+}
+
+.cup:hover .overlay2 {
+  margin: 1000px 500px 500px 1250px;
+  height: 20%;
+}
+
+.blurb {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute; 
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+mug {
+  position: relative;
+  width: 50%;
+}
+
+.interior{
+  display: block;
+  width: 30%;
+  height: 48%;
+  margin: 60px 500px 10px 1240px;
+}
+
+.overlay3 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 25%;
+  height: 0;
+  margin: 50px 50px 10px 200px;
+  transition: .5s ease;
+}
+
+.mug:hover .overlay3 {
+  margin: -10000px -100px -10px 1240px;
+  height: 20%;
+}
+
+.hyperlink {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute; 
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+storage {
+  position: relative;
+  width: 50%;
+}
+
+.looks{
+  display: block;
+  width: 30%;
+  height: 48%;
+  margin: -520px 70px -5000px 30px;
+}
+
+.overlay4 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 25%;
+  height: 0;
+  margin: 50px 50px 10px 200px;
+  transition: .5s ease;
+}
+
+.storage:hover .overlay4 {
+  margin: 800px 500px 98px 30px;
+  height: 20%;
+}
+
+.hyperlink2 {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute; 
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+storage1 {
+  position: relative;
+  width: 50%;
+}
+
+.looks2{
+  display: block;
+  width: 60%;
+  height: 68%;
+  margin: 20px 900px 10px 200px;
+}
+
+.overlay5 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  overflow: hidden;
+  width: 25%;
+  height: 0;
+  margin: 50px 50px 10px 200px;
+  transition: .5s ease;
+}
+
+.storage1:hover .overlay5 {
+  margin: 20px 500px 50px 20px;
+  height: 20%;
+}
+
+.hyperlink3 {
+  white-space: nowrap; 
+  color: black;
+  font-size: 20px;
+  position: absolute; 
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
